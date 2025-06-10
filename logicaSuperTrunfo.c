@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h> // Biblioteca necessária para comparar strings
+#include <string.h> // Biblioteca necessária para comparar strings.
 
 int main() {
     //VARIAVEIS DA PRIMEIRA CARTA DO JOGO
