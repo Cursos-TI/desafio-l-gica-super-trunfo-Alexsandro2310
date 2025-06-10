@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h> // Biblioteca necessária para comparar strings.
+#include <string.h> // Biblioteca necessária para comparar strings(biblioteca adicionada por conta propria)
 
 //ALTERAÇOES E CODIGO FEITO E TESTADO NO VISUAL STUDIO CODE
 
