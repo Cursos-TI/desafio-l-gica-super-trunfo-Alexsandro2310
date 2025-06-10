@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h> // Biblioteca necessária para comparar strings.
 
+//ALTERAÇOES E CODIGO FEITO E TESTADO NO VISUAL STUDIO CODE
+
 int main() {
     //VARIAVEIS DA PRIMEIRA CARTA DO JOGO
     char estado1;
