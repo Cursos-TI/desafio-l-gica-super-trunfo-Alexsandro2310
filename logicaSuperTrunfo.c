@@ -101,10 +101,6 @@ int main() {
 
     printf("\nComparando %s com %s:\n", cidade1, cidade2); // ADICIONADO
 
-    
-
-    // Comparação das cartas
-    printf("\nComparação de Cartas (Atributo: %s):\n", atributoEscolhido);
 
     // ADICIONADO: Switch para selecionar atributo
     switch(opcao) {
