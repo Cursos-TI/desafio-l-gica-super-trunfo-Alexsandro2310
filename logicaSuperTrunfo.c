@@ -87,6 +87,20 @@ int main() {
     superPoder1 = populacao1 + areakm1 + pib1 + pontosturisticos1 + pibPerCapita1 + (1.0 / densidade1);
     superPoder2 = populacao2 + areakm2 + pib2 + pontosturisticos2 + pibPercapita2 + (1.0 / densidade2);
 
+    //ADICIONADO O MENU DE ESCOLHA
+
+       int opcao;
+    printf("\nEscolha um atributo para comparar:\n");
+    printf("1 - Populacao\n");
+    printf("2 - Area\n");
+    printf("3 - PIB\n");
+    printf("4 - Pontos Turisticos\n");
+    printf("5 - Densidade Demografica\n");
+    printf("Escolha (1-5): ");
+    scanf("%d", &opcao);
+
+    printf("\nComparando %s com %s:\n", cidade1, cidade2); // ADICIONADO
+
     // Escolha do atributo para comparação (Definido diretamente no código)
     char atributoEscolhido[] = "População"; // Troque por "Área", "PIB", etc.
 
