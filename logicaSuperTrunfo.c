@@ -139,6 +139,24 @@ int main() {
     printf("Atributo %d - %s: %.2f | %s: %.2f\n", segundaEscolha, cidade1, valor2_carta1, cidade2, valor2_carta2);
 
 
-    
+      // Ajuste da lógica para Densidade Demográfica (menor vence)
+    valor1_carta1 = (primeiraEscolha == 5) ? (1 / valor1_carta1) : valor1_carta1;
+    valor1_carta2 = (primeiraEscolha == 5) ? (1 / valor1_carta2) : valor1_carta2;
+    valor2_carta1 = (segundaEscolha == 5) ? (1 / valor2_carta1) : valor2_carta1;
+    valor2_carta2 = (segundaEscolha == 5) ? (1 / valor2_carta2) : valor2_carta2;
+
+    soma1 = valor1_carta1 + valor2_carta1;
+    soma2 = valor1_carta2 + valor2_carta2;
+
+    printf("\nSoma dos Atributos - %s: %.2f | %s: %.2f\n", cidade1, soma1, cidade2, soma2);
+
+    if (soma1 > soma2) printf("\nVencedora: %s\n", cidade1);
+    else if (soma2 > soma1) printf("\nVencedora: %s\n", cidade2);
+    else printf("\nEmpate!\n");
+
+    return 0;
+}
+
+
 
 }
